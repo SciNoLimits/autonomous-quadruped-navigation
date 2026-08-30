@@ -24,6 +24,7 @@ setup(
     },
     entry_points={
         'console_scripts': [
+            'lidar_processor = go2_perception.lidar_processor:main',
         ],
     },
 )
